@@ -1,13 +1,13 @@
 # check the input whether is it a integer or not
 try:
    # take input for the calculation value
-   num = int(input("Eneter Number to multiplay : "))
+   num = int(input("Enter Number to multiplay : "))
    
    # check the input for range whether is it a integer or not
    try:
 
       # take input for the range 
-      x = int(input("Eneter range : "))
+      x = int(input("Enter range : "))
 
       # loop for change values
       for i in range(1,x+1):
@@ -22,3 +22,4 @@ try:
 # if input for calculation value is not a integer then print error on here
 except:
    print("Input Type Error!")
+
